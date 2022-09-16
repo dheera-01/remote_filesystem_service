@@ -16,7 +16,7 @@ void encrypt1(char *str){
         }else if('A' <= str[i] && str[i] <= 'Z'){
             str[i] = (str[i]-'A'+OFFSET)%26+'A';
         }else if('0' <= str[i] && str[i] <= '9'){
-            str[i] = (str[i]-'0'+OFFSET)%26+'0';
+            str[i] = (str[i]-'0'+OFFSET)%10+'0';
         }
     }
     str[len] = '\0';
@@ -37,7 +37,7 @@ void decrypt1(char *str){
         }else if('A' <= str[i] && str[i] <= 'Z'){
             str[i] = (str[i]-'A'-OFFSET+26)%26+'A';
         }else if('0' <= str[i] && str[i] <= '9'){
-            str[i] = (str[i]-'0'-OFFSET+26)%26+'0';
+            str[i] = (str[i]-'0'-OFFSET+10)%10+'0';
         }
     }
     str[len] = '\0';
