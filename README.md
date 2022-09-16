@@ -12,7 +12,7 @@ This repo contains code for server-side and client-side application including co
     
 3. For running client application:
 
-  Compile "client_interface.c" inside client_folder on client machine using following command
+  Compile "client_interface.c" inside client_folder on client machine using following command.
     `gcc client_interface.c -o client`
     
   Run client by executing `client` with server-ip and socket-port with following command.
@@ -20,10 +20,10 @@ This repo contains code for server-side and client-side application including co
     
 4. List of commands:
 
-  `HELP` -- get help.
-  `EXIT` -- exit client application.
-  `CWD` -- get current working directory.
-  `LS` -- get list of files and directories.
-  `CD <path>` -- change cwd to path.
-  `DWD <filename>` -- download filename file from server.
-  `UPD <filename>` -- upload filename file to server.
+  `HELP` -- get help.\
+  `EXIT` -- exit client application.\
+  `CWD` -- get current working directory.\
+  `LS` -- get list of files and directories.\
+  `CD <path>` -- change cwd to path.\
+  `DWD <filename>` -- download filename file from server.\
+  `UPD <filename>` -- upload filename file to server.\
